@@ -31,7 +31,25 @@ Grandes telas: Acima de 1200px
     }
     div#formulario > p{
         font-size: 1em;
-     }   
+     }
+     
+     form > input[type=submit]{
+        width: 300px;
+        height: 45px;
+        margin: auto;
+        padding-top: 10px;
+        margin-top: 30px;
+        transition: 1s;
+     }
+
+    form > a.botao{
+        height: 45px;
+        width: 300px;
+        margin: auto;
+        padding-top: 10px;
+        margin-top: 10px;
+        transition: 1s;
+     }
 }
 
 
@@ -60,5 +78,24 @@ Grandes telas: Acima de 1200px
     } 
     div#formulario > p{
         font-size: 1.2em;
-     }   
+        margin-bottom: 30px;
+     }
+     
+     form > input[type=submit]{
+        min-width: 250px;
+        height: 45px;
+        margin: auto;
+        padding-top: 10px;
+        margin-top: 30px;
+        transition: 0.5s;
+     }
+
+    form > a.botao{
+        height: 45px;
+        max-width: 450px;
+        margin: auto;
+        padding-top: 10px;
+        margin-top: 10px;
+        transition: 0.5s;
+    }
 }
